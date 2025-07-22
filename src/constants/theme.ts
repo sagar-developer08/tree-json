@@ -1,0 +1,64 @@
+const fixedColors = {
+  CRIMSON: "#DC143C",
+  BLURPLE: "#5865F2",
+  PURPLE: "#9036AF",
+  FULL_WHITE: "#FFFFFF",
+  BLACK: "#202225",
+  BLACK_DARK: "#2C2F33",
+  BLACK_LIGHT: "#2F3136",
+  BLACK_PRIMARY: "#36393f",
+  DARK_SALMON: "#E9967A",
+  DANGER: "hsl(359,calc(var(--saturation-factor, 1)*66.7%),54.1%)",
+  LIGHTGREEN: "#90EE90",
+  SEAGREEN: "#11883B",
+  ORANGE: "#FAA81A",
+  SILVER: "#B9BBBE",
+  PRIMARY: "#4D4D4D",
+  TEXT_DANGER: "#db662e",
+};
+
+const nodeColors = {
+  NODE_COLORS: {
+    TEXT: "#000000",
+    NODE_KEY: "#761CEA",
+    NODE_VALUE: "#535353",
+    INTEGER: "#FD0079",
+    NULL: "#afafaf",
+    BOOL: {
+      FALSE: "#FF0000",
+      TRUE: "#748700",
+    },
+    PARENT_ARR: "#FF6B00",
+    PARENT_OBJ: "#761CEA",
+    CHILD_COUNT: "#535353",
+    DIVIDER: "#e6e6e6",
+  },
+};
+
+export const darkTheme = {
+  ...fixedColors,
+  ...nodeColors,
+  BLACK_SECONDARY: "#F2F2F2",
+  SILVER_DARK: "#CCCCCC",
+  NODE_KEY: "#DC3790",
+  OBJECT_KEY: "#0260E8",
+  SIDEBAR_ICONS: "#6D6E70",
+
+  INTERACTIVE_NORMAL: "#4f5660",
+  INTERACTIVE_HOVER: "#2e3338",
+  INTERACTIVE_ACTIVE: "#060607",
+  BACKGROUND_NODE: "#F6F8FA",
+  BACKGROUND_TERTIARY: "#e3e5e8",
+  BACKGROUND_SECONDARY: "#f2f3f5",
+  TOOLBAR_BG: "#ECECEC",
+  BACKGROUND_PRIMARY: "#FFFFFF",
+  BACKGROUND_MODIFIER_ACCENT: "rgba(106,116,128,0.24)",
+  MODAL_BACKGROUND: "#FFFFFF",
+  TEXT_NORMAL: "#2e3338",
+  TEXT_POSITIVE: "#008736",
+  GRID_BG_COLOR: "#f7f7f7",
+  GRID_COLOR_PRIMARY: "#ebe8e8",
+  GRID_COLOR_SECONDARY: "#f2eeee",
+};
+
+export default darkTheme;
