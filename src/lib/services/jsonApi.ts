@@ -1,4 +1,4 @@
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8008';
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'https://careinsuranceapi.akashic.dhira.io';
 
 export interface ApiResponse<T> {
   success: boolean;
