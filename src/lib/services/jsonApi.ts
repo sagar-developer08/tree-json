@@ -7,6 +7,7 @@ export interface ApiResponse<T> {
   error?: string;
 }
 
+
 class JsonApiService {
   private baseUrl: string;
 
